@@ -64,11 +64,19 @@
             width:80%; 
             height:600px;
         }
+        #if1 p{
+            display: block;
+            height: 50px;
+            width: 50px;
+        }
+        .over{
+            overflow: visible;
+        }
     </style>
 </head>
 <body class="bg bg-blur">
-<div>
-    <ul id="li_1">
+<div class="over">
+    <ul id="li_1" class="over">
         <li><a href="photo.html" target="iframe_a">相册</a></li>
         <li><a href="me.html" target="iframe_a">关于我</a></li>
         <li><a href="diary.html" target="iframe_a">日志</a></li>
@@ -76,7 +84,7 @@
     </ul>
 </div>
 <div>
-<iframe name="iframe_a" frameborder="1"id="if1">
+<iframe src="welcome.html" name="iframe_a" frameborder="1" id="if1">
 </iframe>
 </div>
 </body>
